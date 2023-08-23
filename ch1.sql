@@ -93,3 +93,43 @@ WHERE name IN
 'DimGeography','DimSalesTerritory',    
 'DimOrganization','FactCurrencyRate',
 'DimProduct','FactInternetSales');
+
+-- Gives a table of column names, types, etc for each table
+SELECT "DimCurrency";
+PRAGMA table_info('DimCurrency');
+SELECT "DimCustomer";
+PRAGMA table_info('DimCustomer');
+SELECT "DimProductCategory";
+PRAGMA table_info('DimProductCategory');
+SELECT "FactInternetSalesReason";
+PRAGMA table_info('FactInternetSalesReason');
+SELECT "DimProductSubcategory";
+PRAGMA table_info('DimProductSubcategory');
+SELECT "FactResellerSales";
+PRAGMA table_info('FactResellerSales');
+SELECT "DimDate";
+PRAGMA table_info('DimDate');
+SELECT "DimPromotion";
+PRAGMA table_info('DimPromotion');
+SELECT "FactSurveyResponse";
+PRAGMA table_info('FactSurveyResponse');
+SELECT "DimDepartmentGroup";
+PRAGMA table_info('DimDepartmentGroup');
+SELECT "DimReseller";
+PRAGMA table_info('DimReseller');
+SELECT "DimEmployee";
+PRAGMA table_info('DimEmployee');
+SELECT "DimSalesReason";
+PRAGMA table_info('DimSalesReason');
+SELECT "DimGeography";
+PRAGMA table_info('DimGeography');
+SELECT "DimSalesTerritory";
+PRAGMA table_info('DimSalesTerritory');
+SELECT "DimOrganization";
+PRAGMA table_info('DimOrganization');
+SELECT "FactCurrencyRate";
+PRAGMA table_info('FactCurrencyRate');
+SELECT "DimProduct";
+PRAGMA table_info('DimProduct');
+SELECT "FactInternetSales";
+PRAGMA table_info('FactInternetSales');
